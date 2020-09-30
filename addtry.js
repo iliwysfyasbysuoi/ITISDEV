@@ -20,20 +20,20 @@ const fulfillmentCollections = 'fulfillments';
 
 // it will error IF the collection doesn't exist in the first place
 // it if errors, just run addtry.js again
-mongodb.dropCollection(userCollections);
-mongodb.dropCollection(messageCollections);
-mongodb.dropCollection(messageHistoryCollections);
-mongodb.dropCollection(authorCollections);
-mongodb.dropCollection(booksCollections);
-mongodb.dropCollection(bookVersionsCollections);
-mongodb.dropCollection(requestsCollections);
-mongodb.dropCollection(cartItemsCollections);
-mongodb.dropCollection(ordersCollections);
-mongodb.dropCollection(orderItemsCollections);
-mongodb.dropCollection(paymentDetailsCollections);
-mongodb.dropCollection(billingAddressCollections);
-mongodb.dropCollection(notifCollections);
-mongodb.dropCollection(fulfillmentCollections);
+// mongodb.dropCollection(userCollections);
+// mongodb.dropCollection(messageCollections);
+// mongodb.dropCollection(messageHistoryCollections);
+// mongodb.dropCollection(authorCollections);
+// mongodb.dropCollection(booksCollections);
+// mongodb.dropCollection(bookVersionsCollections);
+// mongodb.dropCollection(requestsCollections);
+// mongodb.dropCollection(cartItemsCollections);
+// mongodb.dropCollection(ordersCollections);
+// mongodb.dropCollection(orderItemsCollections);
+// mongodb.dropCollection(paymentDetailsCollections);
+// mongodb.dropCollection(billingAddressCollections);
+// mongodb.dropCollection(notifCollections);
+// mongodb.dropCollection(fulfillmentCollections);
 
 // end of note
 

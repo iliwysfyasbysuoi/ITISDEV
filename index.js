@@ -19,7 +19,7 @@ const MongoStore = require('connect-mongo')(session);
 const mongoose = require('mongoose');
 
 const MongoClient = require('mongodb').MongoClient
-const myurl = 'mongodb://localhost:27017/chapterone';
+const myurl = 'mongodb+srv://admin:bnDNut4AG77aqK3@cluster0.u3t5h.mongodb.net/chapterone?retryWrites=true&w=majority';
 
 //Set Storage Engine
 const storage = multer.diskStorage({

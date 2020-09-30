@@ -3,7 +3,7 @@ const mongodb = require('mongodb');
 
 // MongoDB client
 const client = mongodb.MongoClient;
-const url = 'mongodb://localhost:27017/chapterone';
+const url = 'mongodb+srv://admin:bnDNut4AG77aqK3@cluster0.u3t5h.mongodb.net/chapterone?retryWrites=true&w=majority';
 
 // name of the database
 const dbName = 'chapterone';

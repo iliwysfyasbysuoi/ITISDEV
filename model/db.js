@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const url = 'mongodb://localhost:27017/chapterone';
+const url = 'mongodb+srv://admin:bnDNut4AG77aqK3@cluster0.u3t5h.mongodb.net/chapterone?retryWrites=true&w=majority';
 
 const options = {
     useUnifiedTopology: true,
