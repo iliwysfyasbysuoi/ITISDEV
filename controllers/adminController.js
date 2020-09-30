@@ -128,7 +128,7 @@ const adminController = {
                     // else if author DOES NOT exist in the db, make an author object then push its _ID
 
                     var author = new authorModel({
-                        _id : new ObjectId(),
+                        _id :  ObjectId(),
                         aName : aName
                     })
 
